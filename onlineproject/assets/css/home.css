@@ -1,0 +1,26 @@
+
+#writen{
+	olor: red!important;
+}
+
+/*form styling*/
+#formcontainer{
+	order: 1px solid red!important;
+	background-color: #b5a8a8;
+	box-shadow: 0 0.2px 4px 4px rgb(0,0,0,.5);
+}
+#name{
+	font-size: 12px;
+}
+#button{
+	background-color: #ca5757;
+	border-radius: 5px;
+	transition-duration: .13s;
+}
+#button:hover{
+	background-color: #5a2121;
+}
+#downhis{
+	text-align: justify;
+}
+

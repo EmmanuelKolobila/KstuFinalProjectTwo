@@ -1,0 +1,107 @@
+body{
+	ackground-color: red;
+}
+/**{
+	margin: 0;
+	outline: 0;
+	padding: 0;
+}*/
+#condiv>div{
+	idth: 10px!important;
+}
+#aboutheadchildren>div{
+	order: 1px solid red;
+	display: inline-block;
+	padding: 2px;
+	verflow: hidden;
+	color: #272949;
+}
+#aboutheadchildren{
+	order: 1px solid red;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+#logo_n_name>div{
+	order: 1px spolid;
+	display: inline-block;
+	overflow: hidden;
+}
+#home{
+	margin-left: 8%;
+}
+#comment{
+	float: right;
+}
+#logoimg{
+	height: 100px;
+}
+#name{
+	order: 1px solid gold;
+	font-size: 28px;
+ 	font-weight: 900;
+ 	color: var(--secondary);
+ 	text-transform: uppercase;
+ 	line-height: 29px;
+ 	margin-bottom: 20px;
+}
+#kstu{
+	margin-top: 5px!important;
+}
+#home,#vclass,#wifi,#comment{
+ 	font-weight: 900;
+	color: var(--secondary);
+	eight: 90px;
+	overflow: hidden;
+	font-size: 22px;
+	line-height: 85px;
+	cursor: pointer;
+	transition-duration: .5s;
+}#home:hover,#vclass:hover,#wifi:hover,#comment:hover{
+	color: gold;
+}
+#directhome{
+	background-color: #272949;
+	color: #ffff;
+	e-height: 27px;
+}
+#_about{
+	font-size: 22px;
+	margin-top: 15px;
+}
+#history{
+	order: 1px solid;
+	margin: 0 auto;
+	max-width: 1200px;
+	margin-top: 30px;
+	margin-bottom: 00px;
+}
+#history>div{
+	order: 1px solid red;
+	display: inline-block;
+	height: 378px;
+	overflow: hidden;
+	
+}
+#writehis{
+	width: 35%;
+}
+#hislogo{
+	width: 25%;
+	text-align: center;
+}
+#tophis{
+	font-size: 28px;
+ 	font-weight: 900;
+ 	color: var(--secondary);
+ 	text-transform: uppercase;
+	margin-bottom: 50px;
+	margin-top: 50px;
+ 	
+}
+#hoho{
+	font-size: 28px;
+ 	font-weight: 900;
+ 	color: var(--secondary);
+ 	text-transform: uppercase;
+	
+}

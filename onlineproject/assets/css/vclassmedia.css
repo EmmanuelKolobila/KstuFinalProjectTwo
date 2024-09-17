@@ -1,0 +1,42 @@
+@media(max-width: 1115px){
+	#text,#vedeocon,#thirdcon{
+		margin: 0 auto;
+		width: 90%!important;
+	}
+	#text{
+		font-size: 100px;
+	}
+}
+
+@media(max-width: 973px){
+	#stepnumber{
+		background-color: unset!important;
+		width: unset!important;
+	}
+	#text{
+		font-size: 80px;
+	}
+}
+
+
+@media(max-width: 848px){
+	#vedoetex{
+		font-size: 20px;
+		margin-bottom: unset!important;
+	}
+}
+@media(max-width: 770px){
+	#vedoetex{
+		font-size: 15px;
+		margin-bottom: unset!important;
+	}
+	#vedeo{
+		height: 300px;
+	}
+	#text{
+		font-size: 50px;
+	}
+	.text-effect-wrapper{
+		height: 20vh!important;
+	}
+}
