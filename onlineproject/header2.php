@@ -12,7 +12,7 @@
               <!-- <li><a class="nav-link scrollto active" href="userinterface.php">Home</a></li> -->
                <li><a class="nav-link scrollto" href="index.php">Back To Page</a></li>
               <li><a class="nav-link scrollto" href="../notice/index.php">Announcement</a></li>
-              <li><a class="nav-link scrollto" href="../partof/index.php">Student Complains</a></li>
+              <li><a class="nav-link scrollto" href="../partof/index.php">Student Problems Logs</a></li>
               <!-- <li><a class="nav-link scrollto" href="service.php">Services</a></li> -->
               
               <li class="dropdown"><a href="#"><span>Service</span> <i class="bi bi-chevron-down"></i></a>
@@ -29,7 +29,7 @@
                   </li> -->
                   <li><a href="wifi.php">Wifi</a></li>
                   <li><a href="#">Hardware</a></li>
-                  <li><a href="#">Portal</a></li>
+                  <li><a href="portal.php">Portal</a></li>
                 </ul> 
                </li> 
               <li><a class="nav-link  " href="comment.php">Comment</a></li>

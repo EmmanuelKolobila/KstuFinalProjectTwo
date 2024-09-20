@@ -5,17 +5,24 @@
 	box-shadow: 0 0.5px 3px 4px rgb(0,0,0,.3);
 	background-color: #493f3f;
 }
-#writehis{
+/* #writehis{
 	border: 1px solid red;
-}
-@media(max-width: 1115px){
+} */
+/* @media(max-width: 1115px){
 	#formedia{
 		margin: 0 auto;
 		width: 90%;
 	}
 }
 @media(max-width: 917px){
+	#history>div{
+		display: block!important;
+		width: 90%;
+		eight: 300px;
+		margin: unset!important;
+		padding: unset;
+		border: 1px solid red!important;
+	}
 	
-	
-}
+} */
 

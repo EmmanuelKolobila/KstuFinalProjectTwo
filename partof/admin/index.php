@@ -35,45 +35,29 @@ exit();
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CMS | Admin login</title>
+	<title>KsTU | Student problem Admin login</title>
 	<link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link type="text/css" href="css/theme.css" rel="stylesheet">
 	<link type="text/css" href="images/icons/css/font-awesome.css" rel="stylesheet">
-	<link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600' rel='stylesheet'>
+	<link href="../../onlineproject/assets/img/logo.png" rel="icon">
+	<link href="../../onlineproject/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+		<!-- hh -->
+		<link href="../../onlineproject/assets/css/style.css" rel="stylesheet">
+    <link href="../../onlineproject/assets/css/style-responsive.css" rel="stylesheet">
+	<!-- boostrap link -->
+	<link href="../../onlineproject/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+	<!-- where to find bacground image -->
 </head>
+<style>
+	/* #headcon{
+		background-color: red;
+	} */
+</style>
 <body>
 
-	<div class="navbar navbar-fixed-top">
-		<div class="navbar-inner">
-			<div class="container">
-				<a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
-					<i class="icon-reorder shaded"></i>
-				</a>
-
-			  	<a class="brand" href="index.html">
-			  		KsTU STUDEND PROBLEM | Admin
-			  	</a>
-
-				<div class="nav-collapse collapse navbar-inverse-collapse">
-				
-					<ul class="nav pull-right">
-
-						<li><a href="../index.php">
-						Back to Portal
-						
-						</a></li>
-
-						
-
-						
-					</ul>
-				</div><!-- /.nav-collapse -->
-			</div>
-		</div><!-- /navbar-inner -->
-	</div>
-
-
+	<?php include '../../onlineproject/partofadminheader.php'?>
 
 	<div class="wrapper">
 		<div class="container">
@@ -110,13 +94,9 @@ exit();
 		</div>
 	</div><!--/.wrapper-->
 
-	<div class="footer">
-		<div class="container">
-			 
+	<?php include '../../onlineproject/footer.php'?>
+	<!-- <?php // include '../../onlineproject/script.php'?> -->
 
-			
-		</div>
-	</div>
 	<script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
 	<script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
 	<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>

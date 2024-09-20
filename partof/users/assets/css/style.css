@@ -2241,3 +2241,10 @@ label {
 }
 
 
+/* login page stlyle */
+#thisback{
+    background-image: url(../img/o4.jpg)!important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

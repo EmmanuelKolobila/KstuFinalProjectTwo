@@ -6,6 +6,8 @@ session_start();
 	<head>
 		<title>Online Notice Board</title>
 		<link rel="stylesheet" href="css/bootstrap.css"/>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 		<script src="js/jquery_library.js"></script>
 <script src="js/bootstrap.min.js"></script>
 	</head>
@@ -24,9 +26,9 @@ session_start();
             <ul>
 
               <li id=""><a style="font-size: 15px!important;" href="../onlineproject/index.php"><strong>Back To Main Page</strong></a></li>
-              <li id=""><a style="font-size: 15px!important;" href="../partof/index.html"><strong>Back To Help Page</strong></a></li>
-              <li><a style="font-size: 15px!important;" href="index.php?option=about"><span class="glyphicon glyphicon-user"></span> About</a></li>
-              <li><a style="font-size: 15px!important;" href="index.php?option=contact"><span class="glyphicon glyphicon-phone"></span>Contact</a></li>
+              <li id=""><a style="font-size: 15px!important;" href="../partof/index.php"><strong>Back To Help Page</strong></a></li>
+              <!-- <li><a style="font-size: 15px!important;" href="index.php?option=about"><span class="glyphicon glyphicon-user"></span> About</a></li> -->
+              <!-- <li><a style="font-size: 15px!important;" href="index.php?option=contact"><span class="glyphicon glyphicon-phone"></span>Contact</a></li> -->
               <li><a style="font-size: 15px!important;" href="index.php?option=New_user"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
               <li><a style="font-size: 15px!important;" href="index.php?option=login"><span class="glyphicon glyphicon-log-in"> </span> Login</a></li>
               <!--  -->
@@ -122,6 +124,7 @@ session_start();
 <br/>
 <br/>
 <br/>
+<?php include '../partof/innercontent.php'?>
 
 <!-- footer-->
 

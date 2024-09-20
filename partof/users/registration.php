@@ -21,7 +21,9 @@ if(isset($_POST['submit']))
     <meta name="description" content="">
     <meta name="author" content="Dashboard">
     <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
-
+<!-- where to find bacground image -->
+<link rel="stylesheet" href="assets/css/style.css">
+	 <!-- end -->
 	 <!-- Favicons -->
 	 <link href="../../onlineproject/assets/img/logo.png" rel="icon">
  	 <!-- <link href="../../onlineproject/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -80,7 +82,7 @@ error:function (){}
 
   <body>
 	  <!--welcome-hero start -->
-	  <section id="home" class="welcome-hero">
+	  <section id="thisback"class="lcome-hero">
 			<div class="container">
   <?php include '../../onlineproject/partofregisterheader.php'?>
 	  <div id="login-page">
@@ -95,7 +97,7 @@ echo htmlentities($msg);
 
 
 		        </p>
-		        <div class="login-wrap">
+		        <div class="login-wrap" style="margin-bottom: 80px">
 		         <input type="text" class="form-control" placeholder="Full Name" name="fullname" required="required" autofocus>
 		            <br>
 		            <input type="email" class="form-control" placeholder="Email" id="email" onBlur="userAvailability()" name="email" required="required">

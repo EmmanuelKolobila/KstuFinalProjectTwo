@@ -14,6 +14,7 @@
   <link href="assets/img/logo.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
   <link rel="stylesheet" type="text/css" href="css/home.css">
+  <link rel="stylesheet" type="text/css" href="css/about.css">
 
 
   <!-- Vendor CSS Files -->
@@ -93,15 +94,30 @@
 	<div id="directhome" class="container-fliud p-5 text-center">
 		<div id="_home" class="pt-2">HOME</div>
 		<div id="_about" class="pb-3">ABOUT KsTU I.C.T DIRECTORATE</div>
+    <div id="" style="text-align: center; display: none"><img src="images/logon.png" style="height: 40px"></div>
 	</div>
   <div id="formedia">
-	<div id="history">
+
+
+<div id="atdis">
+  <div id="writehis">
+			<div id="tophis">K<b class="text-lowercase">s</b>TU I.C.T DIRECTORATE HISTORY</div>
+      <div id="" style="text-align: center; display:"><img src="images/logon.png" style="height: 60px; margin-bottom: 10px;"></div>
+			<div id="downhis">KsTU, formerly known as Kumasi Polytechnic, was established in 1954 and officially became a technical university in 2016 as part of the government’s initiative to upgrade polytechnics to technical universities. This transformation allowed KsTU to expand its scope, offering higher degrees and advanced training in technical and professional fields.</div>
+      <div id="downhis">KsTU’s vision is to be a centre of excellence in technical and vocational education, empowering students with the skills needed to contribute to national and global development. Its mission is to provide high-quality education, focusing on practical skills, research, and innovation.
+      Kumasi Technical University is committed to training the next generation of professionals and entrepreneurs, equipping them with the technical and practical skills necessary to thrive in today’s competitive world.</div>
+	</div>
+</div>
+
+
+
+<div id="history" >
 		<div id="writehis">
 			<div id="tophis">I.C.T DIRECTORATE HISTORY</div>
 			<div id="downhis">KsTU, formerly known as Kumasi Polytechnic, was established in 1954 and officially became a technical university in 2016 as part of the government’s initiative to upgrade polytechnics to technical universities. This transformation allowed KsTU to expand its scope, offering higher degrees and advanced training in technical and professional fields.</div>
 		</div>
 		<div id="hislogo">
-			<div id="" style="text-align: center;"><img src="images/logo.png"></div>
+    <div id="" style="text-align: center;"><img src="images/logo.png"></div>
 			<div id="hoho">K<b class="text-lowercase">s</b>TU</div>
 			<div id="hoho">I.C.T</div>
 			<div id="hoho">DIRECTORATE</div>
@@ -109,10 +125,9 @@
 		<div id="writehis">
 			<div id="tophis">I.C.T DIRECTORATE HISTORY</div>
 			<div id="downhis">KsTU’s vision is to be a centre of excellence in technical and vocational education, empowering students with the skills needed to contribute to national and global development. Its mission is to provide high-quality education, focusing on practical skills, research, and innovation.
-Kumasi Technical University is committed to training the next generation of professionals and entrepreneurs, equipping them with the technical and practical skills necessary to thrive in today’s competitive world.
+      Kumasi Technical University is committed to training the next generation of professionals and entrepreneurs, equipping them with the technical and practical skills necessary to thrive in today’s competitive world.</div>
 </div>
 </div>
-		</div>
 	</div>
   <?php  include 'footer.php'?>
   

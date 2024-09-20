@@ -111,7 +111,9 @@ $errormsg="Invalid email id or Contact no";
     <link href="../../onlineproject/assets/css/style-responsive.css" rel="stylesheet">
 	<!-- boostrap link -->
 	<link href="../../onlineproject/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-	
+	<!-- where to find bacground image -->
+	 <link rel="stylesheet" href="assets/css/style.css">
+	 <!-- end -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script type="text/javascript">
 function valid()
@@ -130,7 +132,7 @@ return true;
 
   <body>
   <?php include '../../onlineproject/partofloginheader.php'?>
-  <section id="home" class="welcome-hero">
+  <section id="thisback" class="wlcome-hero">
   <div class="container">
  
 

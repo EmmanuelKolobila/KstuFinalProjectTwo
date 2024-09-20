@@ -54,7 +54,7 @@
             <li><a href="vclass.php">VIRTUAL CLASS</a></li>
             <li><a href="#">HARWARE</a></li>
             <li><a href="wifi.php">KSTU WIFI</a></li>
-            <li><a href="#">PORTAL</a></li>
+            <li><a href="portal.php">PORTAL</a></li>
             <li><a href="#">Contact <b style="color: red">us</b></a></li>
           </ul>
         </div>
@@ -65,7 +65,7 @@
    <header class="showcase">
     <div class="container showcase-inner">
       <h1>KSTU IT DIRECTORATE</h1>
-      <p>HOW CAN WE HELP YOU?</p>
+      <p>THIS PAGE HELPS YOU TO SOLVE SOME PROBLEMS THAT MOSTLY OCCURE</p>
       <a ref="#" class="btnn">FIX YOUR QUERIES ON THE MUNU ABOVE</a>
     </div>
 

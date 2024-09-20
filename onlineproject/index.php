@@ -74,7 +74,7 @@
               </li> 
               <li><a class="nav-link scrollto" href="contact.php">Contact</a></li>
               <li><a class="nav-link scrollto" href="../notice/index.php">Announcement</a></li>
-              <li><a class="nav-link scrollto" href="../partof/index.php">Student problems</a></li>
+              <li><a class="nav-link scrollto" href="../partof/index.php">Student problem logs</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle" id="mobile">
               <!-- <li class="dropdown"></i></a> -->
@@ -103,51 +103,51 @@
 
         <div class="carousel-inner" role="listbox">
 
-          <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/1.jpg)">
+          <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/o1.jpg)">
             <div class="carousel-container">
               <div class="container">
                 <h2 class="animate__animated animate__fadeInDown" id="writen">KUMASI TECHNICAL UNIVERSITY I.C.T DIRECTORATE</h2>
-                <p class="animate__animated animate__fadeInUp">KsTU I.C.T Directorate Help Student Stuff In Solving Their Technical Queries</p>
+                <p class="animate__animated animate__fadeInUp">KsTU I.C.T Directorate Help's Student Staff In Solving Their Technical Queries</p>
                 <a href="userinterface.php" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
               </div>
             </div>
           </div>
 
-          <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/2.jpg)">
+          <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/o2.jpg)">
             <div class="carousel-container">
               <div class="container">
                 <h2 class="animate__animated animate__fadeInDown">KUMASI TECHNICAL UNIVERSITY I.C.T HELP DESK</h2>
-                <p class="animate__animated animate__fadeInUp">We Help And Suport KsTU Stuffs And Student to Find Solution To Their Technical Queries</p>
+                <p class="animate__animated animate__fadeInUp">We Help's And Suport KsTU Staff And Student to Find Solution To Their Technical Queries</p>
                 <a href="userinterface.php" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
               </div>
             </div>
           </div>
 
-          <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/3.jpg)">
+          <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/o3.webp)">
             <div class="carousel-container">
               <div class="container">
                 <h2 class="animate__animated animate__fadeInDown">KUMASI TECHNICAL UNIVERSITY I.C.T HELP DESK</h2>
-                <p class="animate__animated animate__fadeInUp">We Help And Suport KsTU Stuffs And Student to find Solution To Their Technical Queries</p>
+                <p class="animate__animated animate__fadeInUp">We Help's And Suport KsTU Staff And Student to find Solution To Their Technical Queries</p>
                 <a href="userinterface.php" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
               </div>
             </div>
           </div>
 
-          <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/4.jpg)">
+          <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/o4.jpg)">
             <div class="carousel-container">
               <div class="container">
                 <h2 class="animate__animated animate__fadeInDown">KUMASI TECHNICAL UNIVERSITY I.C.T HELP DESK</h2>
-                <p class="animate__animated animate__fadeInUp">We Help And Suport KsTU Stuffs And Student to find Solution To Their Technical Queries</p>
+                <p class="animate__animated animate__fadeInUp">We Help's And Suport KsTU Staff And Student to find Solution To Their Technical Queries</p>
                 <a href="userinterface.php" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
               </div>
             </div>
           </div>
 
-          <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/5.jpg)">
+          <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/o5.webp)">
             <div class="carousel-container">
               <div class="container">
                 <h2 class="animate__animated animate__fadeInDown">KUMASI TECHNICAL UNIVERSITY I.C.T HELP DESK</h2>
-                <p class="animate__animated animate__fadeInUp">We Help And Suport KsTU Stuffs And Student to find Solution To Their Technical Queries.</p>
+                <p class="animate__animated animate__fadeInUp">We Help's And Suport KsTU Staff And Student to find Solution To Their Technical Queries.</p>
                 <a href="userinterface.php" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
               </div>
             </div>
@@ -180,7 +180,7 @@
                 <h4 class="title"><a href="wifi.php">KsTU WIFI</a></h4>
               </a>
               <a href="wifi.php">
-                <p class="description">How To Connect Or Rsset Your Wifi <b class="text-danger">CLICK ME!!</b></p>
+                <p class="description">How To Connect Or Reset Your Wifi <b class="text-danger">CLICK ME!!</b></p>
               </a>
             </div>
           </a>
@@ -190,7 +190,7 @@
               <a href="wifi.php"><i class="bi bi-book"></i></a>
               <h4 class="title"><a href="wifi.php">KsTU VCLASS LOGIN</a></h4>
               <a href="wifi.php">
-                <p class="description">AER YOU FINDING IT DIFFICULT TO LOG INTO KsTU VIRTUAL CLASS? YOUR SOLUTION IS HERE: <b class="text-danger">CLICK ME!!</b></p> 
+                <p class="description">ARE YOU FINING  IT DIFFICULT TO LOG INTO KsTU VIRTUAL CLASS? YOUR SOLUTION IS HERE: <b class="text-danger">CLICK ME!!</b></p> 
               </a>
             </div>
             
@@ -293,7 +293,7 @@ staying agile to drive digital innovations and Cyber Security.
           <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="300">
             <div class="icon"><i class="bi bi-bar-chart"></i></div>
             <h4 class="title"><a href="../onlineproject/vclass.php">password change(Vclass)</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <p class="description">Kindly follow the procedure to change your Vclass password</p>
           </div>
           <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="bi bi-wifi"></i></div>
@@ -305,11 +305,11 @@ staying agile to drive digital innovations and Cyber Security.
             <h4 class="title"><a href="https://archive.kstu.edu.gh/kstu-virtual-classroom">Vclass Link</a></h4>
             <p class="description">Kindly follow this link to the Vclass page</p>
           </div>
-          <!-- <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="400">
             <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-          </div> -->
+            <h4 class="title"><a href="portal.php">Change Portal Password</a></h4>
+            <p class="description">Kindly follow the procedure to Change Your Portal Password</p>
+          </div>
 
         </div>
 
@@ -331,13 +331,13 @@ staying agile to drive digital innovations and Cyber Security.
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h3 class="section-title">Our Staff Workers</h3>
+          <h3 class="section-title">kstu i.c.t directorate Staff </h3>
         </header>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
       <div class=" col-lg-12">
           <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All STUFF</li>
+            <li data-filter="*" class="filter-active">All STAFF</li>
             <li data-filter=".filter-app">CONTACT STUFF</li>
             <li data-filter=".filter-card">NATIONAL SERVICE</li>
             <li data-filter=".filter-web">ATTACHMENT</li>
