@@ -67,30 +67,30 @@ while($row=mysqli_fetch_array($ret1))
     </tr>
     
 
-
+<!-- 
         <tr height="50">
       <td><b>Address:</b></td>
-      <td><?php echo htmlentities($row['address']); ?></td>
-    </tr>
+      <td><?php// echo htmlentities($row['address']); ?></td>
+    </tr> -->
 
 
-
+<!-- 
         <tr height="50">
       <td><b>State:</b></td>
-      <td><?php echo htmlentities($row['State']); ?></td>
-    </tr>
+      <td><?php// echo htmlentities($row['State']); ?></td>
+    </tr> -->
 
 
-        <tr height="50">
+        <!-- <tr height="50">
       <td><b>Country:</b></td>
-      <td><?php echo htmlentities($row['country']); ?></td>
-    </tr>
+      <td><?php// echo htmlentities($row['country']); ?></td>
+    </tr> -->
 
 
-        <tr height="50">
+        <!-- <tr height="50">
       <td><b>Pincode:</b></td>
-      <td><?php echo htmlentities($row['pincode']); ?></td>
-    </tr>  
+      <td><?php //echo htmlentities($row['pincode']); ?></td>
+    </tr>   -->
 
 
         <tr height="50">

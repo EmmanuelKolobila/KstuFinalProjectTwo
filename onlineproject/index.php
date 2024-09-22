@@ -106,7 +106,7 @@
           <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/o1.jpg)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown" id="writen">KUMASI TECHNICAL UNIVERSITY I.C.T DIRECTORATE</h2>
+                <h2 class="animate__animated animate__fadeInDown" id="writen">KUMASI TECHNICAL UNIVERSITY I.C.T DIRECTORATE HELP DESK</h2>
                 <p class="animate__animated animate__fadeInUp">KsTU I.C.T Directorate Help's Student Staff In Solving Their Technical Queries</p>
                 <a href="userinterface.php" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
               </div>
@@ -116,7 +116,7 @@
           <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/o2.jpg)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">KUMASI TECHNICAL UNIVERSITY I.C.T HELP DESK</h2>
+                <h2 class="animate__animated animate__fadeInDown">KUMASI TECHNICAL UNIVERSITY I.C.T DIRECTORATE HELP DESK</h2>
                 <p class="animate__animated animate__fadeInUp">We Help's And Suport KsTU Staff And Student to Find Solution To Their Technical Queries</p>
                 <a href="userinterface.php" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
               </div>
@@ -126,7 +126,7 @@
           <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/o3.webp)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">KUMASI TECHNICAL UNIVERSITY I.C.T HELP DESK</h2>
+                <h2 class="animate__animated animate__fadeInDown">KUMASI TECHNICAL UNIVERSITY I.C.T DIRECTORATE HELP DESK</h2>
                 <p class="animate__animated animate__fadeInUp">We Help's And Suport KsTU Staff And Student to find Solution To Their Technical Queries</p>
                 <a href="userinterface.php" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
               </div>
@@ -136,7 +136,7 @@
           <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/o4.jpg)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">KUMASI TECHNICAL UNIVERSITY I.C.T HELP DESK</h2>
+                <h2 class="animate__animated animate__fadeInDown">KUMASI TECHNICAL UNIVERSITY I.C.T DIRECTORATE HELP DESK</h2>
                 <p class="animate__animated animate__fadeInUp">We Help's And Suport KsTU Staff And Student to find Solution To Their Technical Queries</p>
                 <a href="userinterface.php" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
               </div>
@@ -146,7 +146,7 @@
           <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/o5.webp)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">KUMASI TECHNICAL UNIVERSITY I.C.T HELP DESK</h2>
+                <h2 class="animate__animated animate__fadeInDown">KUMASI TECHNICAL UNIVERSITY I.C.T DIRECTORATE HELP DESK</h2>
                 <p class="animate__animated animate__fadeInUp">We Help's And Suport KsTU Staff And Student to find Solution To Their Technical Queries.</p>
                 <a href="userinterface.php" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
               </div>

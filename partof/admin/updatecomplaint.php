@@ -47,7 +47,7 @@ window.print();
       <td >&nbsp;</td>
     </tr>
     <tr height="50">
-      <td><b>Complaint Number</b></td>
+      <td><b>Problem Number</b></td>
       <td><?php echo htmlentities($_GET['cid']); ?></td>
     </tr>
     <tr height="50">

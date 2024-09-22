@@ -17,7 +17,8 @@ $currentTime = date( 'd-m-Y h:i:s A', time () );
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>KsTU H.D Admin| Closed Problem</title>
+	<title>KsTU H.D Admin| non process problems</title>
+	<link href="../../onlineproject/assets/img/logo.png" rel="icon">
 	<link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link type="text/css" href="css/theme.css" rel="stylesheet">
@@ -48,7 +49,7 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 
 	<div class="module">
 							<div class="module-head">
-								<h3>Closed Complaints</h3>
+								<h3>All Non Process Problems</h3>
 							</div>
 							<div class="module-body table">
 

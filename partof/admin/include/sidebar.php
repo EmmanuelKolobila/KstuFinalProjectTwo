@@ -13,7 +13,7 @@
 									<li>
 										<a href="notprocess-complaint.php">
 											<i class="icon-tasks"></i>
-											Not Process Yet Student Problem
+											Not Process Problems
 											<?php
 $rt = mysqli_query($bd, "SELECT * FROM tblcomplaints where status is null");
 $num1 = mysqli_num_rows($rt);
@@ -26,7 +26,7 @@ $num1 = mysqli_num_rows($rt);
 									<li>
 										<a href="inprocess-complaint.php">
 											<i class="icon-tasks"></i>
-											Pending Student problem
+											Pending problems
                    <?php 
   $status="in Process";                   
 $rt = mysqli_query($bd, "SELECT * FROM tblcomplaints where status='$status'");
@@ -38,7 +38,7 @@ $num1 = mysqli_num_rows($rt);
 									<li>
 										<a href="closed-complaint.php">
 											<i class="icon-inbox"></i>
-											Closed Student problem
+											Closed problems
 	     <?php 
   $status="closed";                   
 $rt = mysqli_query($bd, "SELECT * FROM tblcomplaints where status='$status'");

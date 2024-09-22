@@ -34,6 +34,7 @@ if(isset($_POST['submit']))
     <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/style-responsive.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/partofuserregistrationOverwrite.css">
 	
 
 	  <!--font-awesome.min.css-->
@@ -85,11 +86,11 @@ error:function (){}
 	  <section id="thisback"class="lcome-hero">
 			<div class="container">
   <?php include '../../onlineproject/partofregisterheader.php'?>
-	  <div id="login-page">
-	  	<div class="container">
+	  <div id="login-page" >
+	  	<div class="container" >
 	  	
-		      <form class="form-login" method="post">
-		        <h2 class="form-login-heading">User Registration</h2>
+		      <form class="form-login" method="post" >
+		        <h2 class="form-login-heading" id="loginheading">User Registration</h2>
 		        <p style="padding-left: 1%; color: green">
 		        	<?php if($msg){
 echo htmlentities($msg);
@@ -97,20 +98,20 @@ echo htmlentities($msg);
 
 
 		        </p>
-		        <div class="login-wrap" style="margin-bottom: 80px">
-		         <input type="text" class="form-control" placeholder="Full Name" name="fullname" required="required" autofocus>
+		        <div class="login-wrap" style="margin-bottom: 80px" >
+		         <input type="text" class="form-control" placeholder="Full Name" name="fullname" id="fullname" required="required" autofocus>
 		            <br>
 		            <input type="email" class="form-control" placeholder="Email" id="email" onBlur="userAvailability()" name="email" required="required">
 		             <span id="user-availability-status1" style="font-size:12px;"></span>
 		            <br>
-		            <input type="password" class="form-control" placeholder="Password" required="required" name="password"><br >
-		             <input type="text" class="form-control" maxlength="10" name="contactno" placeholder="Contact no" required="required" autofocus>
+		            <input type="password" class="form-control" placeholder="Password" required="required" name="password"id="password"><br >
+		             <input type="text" class="form-control" maxlength="10" id="contactno" name="contactno" placeholder="Contact no" required="required" autofocus>
 		            <br>
 		            
 		            <button class="btn btn-theme btn-block"  type="submit" name="submit" id="submit"><i class="fa fa-user"></i> Register</button>
 		            <hr>
 		            
-		            <div class="registration">
+		            <div class="registration" id="registration">
 		                Already Registered<br/>
 		                <a class="" href="index.php">
 		                   Sign in

@@ -41,6 +41,7 @@ exit();
 	<link type="text/css" href="css/theme.css" rel="stylesheet">
 	<link type="text/css" href="images/icons/css/font-awesome.css" rel="stylesheet">
 	<link href="../../onlineproject/assets/img/logo.png" rel="icon">
+	<link rel="stylesheet" href="css/overwrite.css">
 	<link href="../../onlineproject/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 
 		<!-- hh -->
@@ -59,13 +60,13 @@ exit();
 
 	<?php include '../../onlineproject/partofadminheader.php'?>
 
-	<div class="wrapper">
+	<div class="wrapper" id="innercon">
 		<div class="container">
 			<div class="row">
-				<div class="module module-login span4 offset4">
-					<form class="form-vertical" method="post">
-						<div class="module-head">
-							<h3>Sign In</h3>
+				<div class="module module-login span4 offset4" id="innerform">
+					<form class="form-vertical" method="post" id="theform">
+						<div class="module-head"id="signin">
+							<h3 >Admin Sign In</h3>
 						</div>
 						<span style="color:red;" ><?php echo htmlentities($_SESSION['errmsg']); ?><?php echo htmlentities($_SESSION['errmsg']="");?></span>
 						<div class="module-body">
@@ -83,7 +84,7 @@ exit();
 						<div class="module-foot">
 							<div class="control-group">
 								<div class="controls clearfix">
-									<button type="submit" class="btn btn-primary pull-right" name="submit">Login</button>
+									<button type="submit" class=" pull-center" id="btn" name="submit">Login</button>
 									
 								</div>
 							</div>

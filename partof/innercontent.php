@@ -1,4 +1,4 @@
-<div class="container-fluit" style="text-align: center; margin-top: 50px">
+<div class="container-fluit" style="text-align: center; margin-top: 50px" id="cont">
             <div class="container">
                 <div class="com"><h1><b>WELCOME TO KsTU I.C.T DIRECTORATE STUDENT HELP DESK</b></h1>
                 <div class="com"><h1><b>STUDENT ANNOUNCEMENT PAGE</b></h1>

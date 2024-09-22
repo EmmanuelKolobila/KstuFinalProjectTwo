@@ -100,6 +100,7 @@ $errormsg="Invalid email id or Contact no";
 
 <!--style.css-->
 <link rel="stylesheet" href="ass/assets/css/style.css">
+<link rel="stylesheet" href="assets/css/UloginOverWrite.css">
 
 <!--responsive.css-->
 <link rel="stylesheet" href="ass/assets/css/responsive.css">
@@ -144,7 +145,7 @@ return true;
 	  	<div class="container">
 	  	
 		      <form class="form-login" name="login" method="post">
-		        <h2 class="form-login-heading">sign in now</h2>
+		        <h2 class="form-login-heading" id="loginheading">sign in now</h2>
 		        <p style="padding-left:4%; padding-top:2%;  color:red">
 		        	<?php if($errormsg){
 echo htmlentities($errormsg);
@@ -155,19 +156,19 @@ echo htmlentities($errormsg);
 echo htmlentities($msg);
 		        		}?></p>
 		        <div class="login-wrap">
-		            <input type="text" class="form-control" name="username" placeholder="Email"  required autofocus>
+		            <input type="text" class="form-control" name="username" placeholder="Email" id="email" required autofocus>
 		            <br>
-		            <input type="password" class="form-control" name="password" required placeholder="Password">
+		            <input type="password" class="form-control" id="password" name="password" required placeholder="Password">
 		            <label class="checkbox">
 		                <span class="pull-right">
 		                    <a data-toggle="modal" href="login.html#myModal"> Forgot Password?</a>
 		
 		                </span>
 		            </label>
-		            <button class="btn btn-theme btn-block" name="submit" type="submit"><i class="fa fa-lock"></i> SIGN IN</button>
+		            <button class="btn btn-theme btn-block" id="submit" name="submit" type="submit"><i class="fa fa-lock"></i> SIGN IN</button>
 		            <hr>
 		           </form>
-		            <div class="registration">
+		            <div class="registration" id="">
 		                Don't have an account yet?<br/>
 		                <a class="" href="registration.php">
 		                    Create an account

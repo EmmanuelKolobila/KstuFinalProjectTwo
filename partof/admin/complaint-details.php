@@ -15,7 +15,8 @@ else{
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Admin| Complaint Details</title>
+	<title>Admin| Problem Details</title>
+	<link href="../../onlineproject/assets/img/logo.png" rel="icon">
 	<link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link type="text/css" href="css/theme.css" rel="stylesheet">
@@ -50,7 +51,7 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 
 	<div class="module">
 							<div class="module-head">
-								<h3>Complaint Details</h3>
+								<h3>Problem Details</h3>
 							</div>
 							<div class="module-body table">
 								<table cellpadding="0" cellspacing="0" border="0" class="datatable-1 table table-bordered table-striped	 display" width="100%">
@@ -64,9 +65,9 @@ while($row=mysqli_fetch_array($query))
 
 ?>									
 										<tr>
-											<td><b>Complaint Number</b></td>
+											<td><b>Problem Number</b></td>
 											<td><?php echo htmlentities($row['complaintNumber']);?></td>
-											<td><b>Complainant Name</b></td>
+											<td><b>Student Name</b></td>
 											<td> <?php echo htmlentities($row['name']);?></td>
 											<td><b>Reg Date</b></td>
 											<td><?php echo htmlentities($row['regDate']);?>
@@ -74,23 +75,23 @@ while($row=mysqli_fetch_array($query))
 										</tr>
 
 <tr>
-											<td><b>Category </b></td>
+											<td><b>Nature Of Problem </b></td>
 											<td><?php echo htmlentities($row['catname']);?></td>
-											<td><b>SubCategory</b></td>
+											<td><b>Has It Being Asked Before</b></td>
 											<td> <?php echo htmlentities($row['subcategory']);?></td>
-											<td><b>Complaint Type</b></td>
+											<td><b>Was It Answered</b></td>
 											<td><?php echo htmlentities($row['complaintType']);?>
 											</td>
 										</tr>
 <tr>
 											<td><b>State </b></td>
 											<td><?php echo htmlentities($row['state']);?></td>
-											<td ><b>Nature of Complaint</b></td>
+											<td ><b>Additional Special Problem</b></td>
 											<td colspan="3"> <?php echo htmlentities($row['noc']);?></td>
 											
 										</tr>
 <tr>
-											<td><b>Complaint Details </b></td>
+											<td><b>Problem Details </b></td>
 											
 											<td colspan="5"> <?php echo htmlentities($row['complaintDetails']);?></td>
 											

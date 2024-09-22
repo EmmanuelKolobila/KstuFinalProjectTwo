@@ -27,10 +27,11 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-
 </head>
 <body style="baground-color: #111;">
   <?php include 'header2.php'?>
+  <?php// include '../notice/indexNoticeHeader.php'?>
+
  <!--  <div id="head">
     <div id="headbox">
       <div id="logo"> <img src="images/logo.png" id="logoimg"> </div>
@@ -108,7 +109,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <!-- <script src="assets/js/main.js"></script> -->
   <!-- swiper -->
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
