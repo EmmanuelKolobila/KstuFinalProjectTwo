@@ -77,19 +77,19 @@ if(isset($_GET['del']))
 			<form class="form-horizontal row-fluid" name="Category" method="post" >
 									
 <div class="control-group">
-<label class="control-label" for="basicinput">Problen Type</label>
+<label class="control-label" for="basicinput">Problem Name</label>
 <div class="controls">
 <input type="text" placeholder="Enter problem"  name="category" class="span8 tip" required>
 </div>
 </div>
 
 
-<div class="control-group">
+<!-- <div class="control-group">
 											 <label class="control-label" for="basicinput">KsTU Student Problem <b>YES/NO</b></label> 
 											 <div class="controls">
 												<textarea class="span8" name="description" rows="5"></textarea>
 											</div> 
-										</div>
+										</div> -->
 
 	<div class="control-group">
 											<div class="controls">
@@ -110,10 +110,10 @@ if(isset($_GET['del']))
 									<thead>
 										<tr>
 											<th>#</th>
-											<th>Problem List</th>
-											<th>KsTU Student Problem</th>
+											<th>Problems List</th>
+											<!-- <th>KsTU Student Problem</th> -->
 											<th>Creation date</th>
-											<th>Last Updated</th>
+											<!-- <th>Last Updated</th> -->
 											<th>Manage/Delate</th>
 										</tr>
 									</thead>
@@ -127,9 +127,9 @@ while($row=mysqli_fetch_array($query))
 										<tr>
 											<td><?php echo htmlentities($cnt);?></td>
 											<td><?php echo htmlentities($row['categoryName']);?></td>
-											<td><?php echo htmlentities($row['categoryDescription']);?></td>
+											<!-- <td><?php //echo htmlentities($row['categoryDescription']);?></td> -->
 											<td> <?php echo htmlentities($row['creationDate']);?></td>
-											<td><?php echo htmlentities($row['updationDate']);?></td>
+											<!-- <td><?php //echo htmlentities($row['updationDate']);?></td> -->
 											<td>
 											<a href="edit-category.php?id=<?php echo $row['id']?>" ><i class="icon-edit"></i></a>
 											<a href="category.php?id=<?php echo $row['id']?>&del=delete" onClick="return confirm('Are you sure you want to delete?')"><i class="icon-remove-sign"></i></a></td>

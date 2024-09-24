@@ -43,6 +43,8 @@ exit();
 	<link href="../../onlineproject/assets/img/logo.png" rel="icon">
 	<link rel="stylesheet" href="css/overwrite.css">
 	<link href="../../onlineproject/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="myboot/dist/css/bootstrap-grid.min.css"> -->
+	<!-- <link rel="stylesheet" href="myboot/dist/js/bootstrap.min.js"> -->
 
 		<!-- hh -->
 		<link href="../../onlineproject/assets/css/style.css" rel="stylesheet">

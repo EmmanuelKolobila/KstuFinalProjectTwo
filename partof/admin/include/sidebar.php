@@ -61,9 +61,9 @@ $num1 = mysqli_num_rows($rt);
 
 
 						<ul class="widget widget-menu unstyled">
-                                <li><a href="category.php"><i class="menu-icon icon-tasks"></i> New Problem Adds </a></li>
-                                <li><a href="subcategory.php"><i class="menu-icon icon-tasks"></i>Set Aditional Features To The Problem </a></li>
-                                <li><a href="state.php"><i class="menu-icon icon-paste"></i>Answered Problem</a></li>
+                                <li><a href="category.php"><i class="menu-icon icon-tasks"></i> Add Problem </a></li>
+                                <!-- <li><a href="subcategory.php"><i class="menu-icon icon-tasks"></i>Set Aditional Features To The Problem </a></li> -->
+                                <!-- <li><a href="state.php"><i class="menu-icon icon-paste"></i>Answered Problem</a></li> -->
                           
                         
                             </ul><!--/.widget-nav-->

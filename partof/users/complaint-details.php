@@ -16,7 +16,7 @@ else{ ?>
     <meta name="author" content="Dashboard">
     <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
 
-    <title>CMS | Complaint Details</title>
+    <title>KsTU Student Problem Details Details</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -32,14 +32,14 @@ else{ ?>
 <?php include('includes/sidebar.php');?>
       <section id="main-content">
           <section class="wrapper site-min-height">
-          	<h3><i class="fa fa-angle-right"></i> Complaint Details</h3>
+          	<h3><i class="fa fa-angle-right"></i>Student Problem Detalils</h3>
             <hr />
 
  <?php $query=mysqli_query($bd, "select tblcomplaints.*,category.categoryName as catname from tblcomplaints join category on category.id=tblcomplaints.category where userId='".$_SESSION['id']."' and complaintNumber='".$_GET['cid']."'");
 while($row=mysqli_fetch_array($query))
 {?>
           	<div class="row mt">
-            <label class="col-sm-2 col-sm-2 control-label"><b>Complaint Number : </b></label>
+            <label class="col-sm-2 col-sm-2 control-label"><b>Problem Number : </b></label>
           		<div class="col-sm-4">
           		<p><?php echo htmlentities($row['complaintNumber']);?></p>
           		</div>
@@ -51,33 +51,33 @@ while($row=mysqli_fetch_array($query))
 
 
 <div class="row mt">
-            <label class="col-sm-2 col-sm-2 control-label"><b>Category :</b></label>
+            <label class="col-sm-2 col-sm-2 control-label"><b>Problem Type :</b></label>
               <div class="col-sm-4">
               <p><?php echo htmlentities($row['catname']);?></p>
               </div>
-<label class="col-sm-2 col-sm-2 control-label"><b>Sub Category :</b> </label>
+<label class="col-sm-2 col-sm-2 control-label"><b></b> </label>
               <div class="col-sm-4">
-              <p><?php echo htmlentities($row['subcategory']);?></p>
+              <p><?php// echo htmlentities($row['subcategory']);?></p>
               </div>
             </div>
 
 
 
   <div class="row mt">
-            <label class="col-sm-2 col-sm-2 control-label"><b>Complaint Type :</b></label>
+            <label class="col-sm-2 col-sm-2 control-label"><b></b></label>
               <div class="col-sm-4">
-              <p><?php echo htmlentities($row['complaintType']);?></p>
+              <p><?php// echo htmlentities($row['complaintType']);?></p>
               </div>
-<label class="col-sm-2 col-sm-2 control-label"><b>State :</b></label>
+<label class="col-sm-2 col-sm-2 control-label"><b></b></label>
               <div class="col-sm-4">
-              <p><?php echo htmlentities($row['state']);?></p>
+              <p><?php// echo htmlentities($row['state']);?></p>
               </div>
             </div>  
 
 
 
   <div class="row mt">
-            <label class="col-sm-2 col-sm-2 control-label"><b>Nature of Complaint :</b></label>
+            <label class="col-sm-2 col-sm-2 control-label"><b>Student :</b></label>
               <div class="col-sm-4">
               <p><?php echo htmlentities($row['noc']);?></p>
               </div>
@@ -96,7 +96,7 @@ else{ ?>
               </div>
             </div> 
  <div class="row mt">
-            <label class="col-sm-2 col-sm-2 control-label"><b>Complaint Details </label>
+            <label class="col-sm-2 col-sm-2 control-label"><b>Problem Details </label>
               <div class="col-sm-10">
               <p><?php echo htmlentities($row['complaintDetails']);?></p>
               </div>

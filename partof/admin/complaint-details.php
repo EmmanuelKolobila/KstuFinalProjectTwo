@@ -77,17 +77,17 @@ while($row=mysqli_fetch_array($query))
 <tr>
 											<td><b>Nature Of Problem </b></td>
 											<td><?php echo htmlentities($row['catname']);?></td>
-											<td><b>Has It Being Asked Before</b></td>
-											<td> <?php echo htmlentities($row['subcategory']);?></td>
-											<td><b>Was It Answered</b></td>
-											<td><?php echo htmlentities($row['complaintType']);?>
+											<td><b></b></td>
+											<!-- <td> <?php //echo htmlentities($row['subcategory']);?></td> -->
+											<td><b></b></td>
+											<!-- <td><?php //echo htmlentities($row['complaintType']);?> -->
 											</td>
 										</tr>
 <tr>
-											<td><b>State </b></td>
-											<td><?php echo htmlentities($row['state']);?></td>
-											<td ><b>Additional Special Problem</b></td>
+											<td><b> </b></td><td ><b>Check Student</b></td>
 											<td colspan="3"> <?php echo htmlentities($row['noc']);?></td>
+											<td><?php// echo htmlentities($row['state']);?></td>
+											
 											
 										</tr>
 <tr>

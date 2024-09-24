@@ -116,10 +116,10 @@ while ($rw=mysqli_fetch_array($sql)) {
 ?>
 </select>
  </div>
-<label class="col-sm-2 col-sm-2 control-label">Has It Being Asked Before </label>
+<label class="col-sm-2 col-sm-2 control-label"> </label>
  <div class="col-sm-4">
-<select name="subcategory" id="subcategory" class="form-control" >
-<option value="">Select YES/NO</option>
+<!-- <select name="subcategory" id="subcategory" class="form-control" >
+<option value="">Select YES/NO</option> -->
 </select>
 </div>
  </div>
@@ -127,7 +127,7 @@ while ($rw=mysqli_fetch_array($sql)) {
 
 
 
-<div class="form-group">
+<!-- <div class="form-group">
 <label class="col-sm-2 col-sm-2 control-label">Has I.C.T Help Desks Help In Your Privious Problem</label>
 <div class="col-sm-4">
 <select name="complaintype" class="form-control" required="">
@@ -141,26 +141,26 @@ while ($rw=mysqli_fetch_array($sql)) {
 
 <label class="col-sm-2 col-sm-2 control-label">Was It Answered</label>
 <div class="col-sm-4">
-<select name="state" required="required" class="form-control">
+<select name="state"  class="form-control">
 <option value="">Select</option>
 <option value=""></option>
-<?php $sql=mysqli_query($bd, "select stateName from state ");
-while ($rw=mysqli_fetch_array($sql)) {
+<?php //$sql=mysqli_query($bd, "select stateName from state ");
+//while ($rw=mysqli_fetch_array($sql)) {
   ?>
-  <option value="<?php echo htmlentities($rw['stateName']);?>"><?php echo htmlentities($rw['stateName']);?></option>
+  <option value="<?php //echo htmlentities($rw['stateName']);?>"><?php //echo htmlentities($rw['stateName']);?></option>
 <?php
-}
+//}
 ?>
 
 </select>
 </div>
-</div>
+</div> -->
 
 
 <div class="form-group">
-<label class="col-sm-2 col-sm-2 control-label">Additional Special Problem</label>
+<label class="col-sm-2 col-sm-2 control-label">Are you a Student?</label>
 <div class="col-sm-4">
-<input type="text" name="noc" required="required" value="" required="" class="form-control">
+<input type="text" name="noc" required="required" class="form-control">
 </div>
 
 </div>
