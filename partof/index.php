@@ -15,13 +15,14 @@
  	 <link rel="stylesheet" type="text/css" href="../../onlineproject/css/home.css"> -->
 
     <title>KsTU Student Problem </title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
     <link href="css/half-slider.css" rel="stylesheet">
 </head>
 
 <body>
     
-<?php include '../onlineproject/partofheader.php'?>
+<?php //include '../onlineproject/partofheader.php'?>
+<?php include 'top.php'?>
  
 
 
@@ -33,8 +34,8 @@
 
         <div class="container-fluit">
             <div class="container">
-                <div class="com"><h1><b>WELCOME TO KsTU I.C.T DIRECTORATE STUDENT HELP DESK</b></h1>
-                <p><h2>FOR US TO ATTENT TO YOUR BROBLEM KINDLY <a href="users/registration.php">REGISTER</a> AFTER THEN <a href="users/index.php">LOGIN</a> AND PRESENT YOUR PROBLEM</h2><br> <b><i>please try to contact us anytime you have i.c.t problem</b> </i></p></div>
+                <div class="com"><h1><b>WELCOME TO KsTU I.C.T DIRECTORATE STUDENT PROBLEM LOGs</b></h1>
+                <p><h2 style="color: #ffff">FOR US TO ATTENT TO YOUR BROBLEM KINDLY <a href="users/registration.php">REGISTER</a> AFTER THEN <a href="users/index.php">LOGIN</a> AND PRESENT YOUR PROBLEM</h2><br> <b><i>please try to contact us anytime you have i.c.t problem</b> </i></p></div>
 
             </div>
         </div>
@@ -62,7 +63,8 @@
     </script>
 
 </body>
-    <?php include '../onlineproject/script.php'?>
-    <?php include '../onlineproject/footer.php'?>
+    <?php //include '../onlineproject/script.php'?>
+    <?php include 'down.php'?>
+    <?php// include '../onlineproject/footer.php'?>
 
 </html>

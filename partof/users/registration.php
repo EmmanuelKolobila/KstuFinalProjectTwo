@@ -23,47 +23,17 @@ if(isset($_POST['submit']))
     <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
 <!-- where to find bacground image -->
 <link rel="stylesheet" href="assets/css/style.css">
-	 <!-- end -->
+<link rel="stylesheet" href="assets/css/UloginOverWrite.css">
+<link href="assets/css/style.css" rel="stylesheet">
+
 	 <!-- Favicons -->
 	 <link href="../../onlineproject/assets/img/logo.png" rel="icon">
- 	 <!-- <link href="../../onlineproject/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
- 	 <link rel="stylesheet" type="text/css" href="../../onlineproject/css/home.css"> -->
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	 
 
     <title>KsTU | Student Problem Registration</title>
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/style-responsive.css" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/partofuserregistrationOverwrite.css">
-	
+ 
 
-	  <!--font-awesome.min.css-->
-	  <link rel="stylesheet" href="ass/assets/css/font-awesome.min.css">
-
-<!--linear icon css-->
-<link rel="stylesheet" href="ass/assets/css/linearicons.css">
-
-<!--animate.css-->
-<link rel="stylesheet" href="ass/assets/css/animate.css">
-
-<!--flaticon.css-->
-<link rel="stylesheet" href="ass/assets/css/flaticon.css">
-
-<!--slick.css-->
-<link rel="stylesheet" href="ass/assets/css/slick.css">
-<link rel="stylesheet" href="ass/assets/css/slick-theme.css">
-
-<!--bootstrap.min.css-->
-<link rel="stylesheet" href="ass/assets/css/bootstrap.min.css">
-
-<!-- bootsnav -->
-<link rel="stylesheet" href="ass/assets/css/bootsnav.css" >	
-
-<!--style.css-->
-<link rel="stylesheet" href="ass/assets/css/style.css">
-
-<!--responsive.css-->
-<link rel="stylesheet" href="ass/assets/css/responsive.css">
     	<script>
 function userAvailability() {
 $("#loaderIcon").show();
@@ -82,14 +52,12 @@ error:function (){}
   </head>
 
   <body>
-	  <!--welcome-hero start -->
-	  <section id="thisback"class="lcome-hero">
-			<div class="container">
-  <?php include '../../onlineproject/partofregisterheader.php'?>
-	  <div id="login-page" >
-	  	<div class="container" >
+	 
+  <?php include 'top.php'?>
+	  <!-- <div id="login-page" > -->
+	  	<div class="" style="order: 1px solid red; eight: 500px">
 	  	
-		      <form class="form-login" method="post" >
+		      <form class="form-login" method="post" style="margin-top: -1px; height: 500px">
 		        <h2 class="form-login-heading" id="loginheading">User Registration</h2>
 		        <p style="padding-left: 1%; color: green">
 		        	<?php if($msg){
@@ -98,16 +66,21 @@ echo htmlentities($msg);
 
 
 		        </p>
-		        <div class="login-wrap" style="margin-bottom: 80px" >
-		         <input type="text" class="form-control" placeholder="Full Name" name="fullname" id="fullname" required="required" autofocus>
-		            <br>
-		            <input type="email" class="form-control" placeholder="Email" id="email" onBlur="userAvailability()" name="email" required="required">
-		             <span id="user-availability-status1" style="font-size:12px;"></span>
-		            <br>
-		            <input type="password" class="form-control" placeholder="Password" required="required" name="password"id="password"><br >
-		             <input type="text" class="form-control" maxlength="10" id="contactno" name="contactno" placeholder="Contact no" required="required" autofocus>
-		            <br>
-		            
+		        <div class="login-wrap" style="argin-bottom: 80px" i>
+					<div>
+						<input type="text" class="form-control" placeholder="Full Name" name="fullname" id="fullname" required="required" autofocus>
+						<br>
+						<input type="email" class="form-control" placeholder="Email" id="email" onBlur="userAvailability()" name="email" required="required">
+						<span id="user-availability-status1" style="font-size:12px;"></span>
+						<br>
+					</div>
+
+					<div>
+						<input type="password" class="form-control" placeholder="Password" required="required" name="password"id="password"><br >
+						<input type="text" class="form-control" maxlength="10" id="contactno" name="contactno" placeholder="Contact no" required="required" autofocus>
+						<br>
+					</div>
+		         
 		            <button class="btn btn-theme btn-block"  type="submit" name="submit" id="submit"><i class="fa fa-user"></i> Register</button>
 		            <hr>
 		            
@@ -125,48 +98,8 @@ echo htmlentities($msg);
 		      </form>	  	
 	  	
 	  	</div>
-	  </div>
-	  </div>
-
-</section><!--/.welcome-hero-->
-<!--welcome-hero end -->
-	<!-- Include all js compiled plugins (below), or include individual files as needed -->
-
-<script src="ass/assets/js/jquery.js"></script>
-
-<!--modernizr.min.js-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-
-<!--bootstrap.min.js-->
-<script src="ass/assets/js/bootstrap.min.js"></script>
-
-<!-- bootsnav js -->
-<script src="ass/assets/js/bootsnav.js"></script>
-
-<!--feather.min.js-->
-<script  src="ass/assets/js/feather.min.js"></script>
-
-<!-- counter js -->
-<script src="ass/assets/js/jquery.counterup.min.js"></script>
-<script src="ass/assets/js/waypoints.min.js"></script>
-
-<!--slick.min.js-->
-<script src="ass/assets/js/slick.min.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-
-    <!-- js placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-
-    <!--BACKSTRETCH-->
-    <!-- You can use an image of whatever size. This script will stretch to fit in any screen size.-->
-    <script type="text/javascript" src="assets/js/jquery.backstretch.min.js"></script>
-    <!-- <script>
-        $.backstretch("assets/img/login-bg.jpg", {speed: 500});
-    </script> -->
-
-	<?php include '../../onlineproject/loginheader.php'?>
-	<?php include '../../onlineproject/footer.php'?>
-  </body>
+	  <!-- </div> -->
+	 
+	  <?php include 'down.php'?>
+<!-- <script src="ass/assets/js/jquery.js"></script> -->
 </html>

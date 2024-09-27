@@ -64,21 +64,13 @@ $errormsg="Invalid email id or Contact no";
     <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
 	<!-- main stayling  -->
 	<title>KsTU Student Problem Login</title>
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/half-slider.css" rel="stylesheet">
+   
 
     <title>KsTU STUDENT PROBLEM | User Login</title>
 
 	<!-- Favicons -->
 	<link href="../../onlineproject/assets/img/logo.png" rel="icon">
- 	 <!-- <link href="../../onlineproject/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
- 	 <link rel="stylesheet" type="text/css" href="../../onlineproject/css/home.css"> -->
-
-
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <!--external css-->
-    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+ 	
         <!--linear icon css-->
 		<link rel="stylesheet" href="ass/assets/css/linearicons.css">
 
@@ -89,32 +81,16 @@ $errormsg="Invalid email id or Contact no";
 <link rel="stylesheet" href="ass/assets/css/flaticon.css">
 
 <!--slick.css-->
-<link rel="stylesheet" href="ass/assets/css/slick.css">
-<link rel="stylesheet" href="ass/assets/css/slick-theme.css">
 
-<!--bootstrap.min.css-->
-<link rel="stylesheet" href="ass/assets/css/bootstrap.min.css">
-
-<!-- bootsnav -->
-<link rel="stylesheet" href="ass/assets/css/bootsnav.css" >	
 
 <!--style.css-->
-<link rel="stylesheet" href="ass/assets/css/style.css">
+<!-- <link rel="stylesheet" href="ass/assets/css/style.css"> -->
 <link rel="stylesheet" href="assets/css/UloginOverWrite.css">
 
 <!--responsive.css-->
-<link rel="stylesheet" href="ass/assets/css/responsive.css">
-    <!-- Custom styles for this template -->
+
     <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/style-responsive.css" rel="stylesheet">
-	<!-- hh -->
-	 <link href="../../onlineproject/assets/css/style.css" rel="stylesheet">
-    <link href="../../onlineproject/assets/css/style-responsive.css" rel="stylesheet">
-	<!-- boostrap link -->
-	<link href="../../onlineproject/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-	<!-- where to find bacground image -->
-	 <link rel="stylesheet" href="assets/css/style.css">
-	 <!-- end -->
+  
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script type="text/javascript">
 function valid()
@@ -132,30 +108,31 @@ return true;
   
 
   <body>
-  <?php include '../../onlineproject/partofloginheader.php'?>
-  <section id="thisback" class="wlcome-hero">
-  <div class="container">
+  <?php include 'top.php'?>
+  <!-- <section id="thisback" class="wlcome-hero"> -->
+  <!-- <div class="container"> -->
  
 
       <!-- **********************************************************************************************************************************************************
       MAIN CONTENT
       *********************************************************************************************************************************************************** -->
 
-	  <div id="login-page">
-	  	<div class="container">
+	  <!-- <div id="login-page"> -->
+	  	<!-- <div class="container"> -->
 	  	
-		      <form class="form-login" name="login" method="post">
+		      <form class="form-login" name="login" method="post" style="margin-top: px">
 		        <h2 class="form-login-heading" id="loginheading">sign in now</h2>
 		        <p style="padding-left:4%; padding-top:2%;  color:red">
 		        	<?php if($errormsg){
 echo htmlentities($errormsg);
 		        		}?></p>
 
-		        		<p style="padding-left:4%; padding-top:2%;  color:green">
+		        		<p style="padding-left:4%; padding-top: px;  color:green">
 		        	<?php if($msg){
 echo htmlentities($msg);
 		        		}?></p>
-		        <div class="login-wrap">
+
+		        <div class="login-wrap" style="rgin-top: 5px">
 		            <input type="text" class="form-control" name="username" placeholder="Email" id="email" required autofocus>
 		            <br>
 		            <input type="password" class="form-control" id="password" name="password" required placeholder="Password">
@@ -207,53 +184,41 @@ echo htmlentities($msg);
 		
 		      	  	
 	  	
-	  	</div>
-	  </div>
+	  	<!-- </div> -->
+	  <!-- </div> -->
 
-    <!-- js placed at the end of the document so the pages load faster -->
-     <!-- <script src="assets/js/jquery.js"></script> 
-     <script src="assets/js/bootstrap.min.js"></script>  -->
+	<!-- </div> -->
 
-    <!--BACKSTRETCH-->
-    <!-- You can use an image of whatever size. This script will stretch to fit in any screen size.-->
-     <!-- <script type="text/javascript" src="assets/js/jquery.backstretch.min.js"></script>  -->
-     <!-- <script>
-        $.backstretch("assets/img/login-bg.jpg", {speed: 500});
-    </script>  -->
-	</div>
+		<!-- </section> -->
 
-		</section><!--/.welcome-hero-->
-		<!--welcome-hero end -->
-        	<!-- Include all js compiled plugins (below), or include individual files as needed -->
-
-		<script src="ass/assets/js/jquery.js"></script>
+		<!-- <script src="ass/assets/js/jquery.js"></script> -->
         
         <!--modernizr.min.js-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-		
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> -->
+		<!--  -->
 		<!--bootstrap.min.js-->
-        <script src="ass/assets/js/bootstrap.min.js"></script>
+        <!-- <script src="ass/assets/js/bootstrap.min.js"></script> -->
 		
 		<!-- bootsnav js -->
-		<script src="ass/assets/js/bootsnav.js"></script>
+		<!-- <script src="ass/assets/js/bootsnav.js"></script> -->
 
         <!--feather.min.js-->
-        <script  src="ass/assets/js/feather.min.js"></script>
+        <!-- <script  src="ass/assets/js/feather.min.js"></script> -->
 
         <!-- counter js -->
-		<script src="ass/assets/js/jquery.counterup.min.js"></script>
-		<script src="ass/assets/js/waypoints.min.js"></script>
+		<!-- <script src="ass/assets/js/jquery.counterup.min.js"></script> -->
+		<!-- <script src="ass/assets/js/waypoints.min.js"></script> -->
 
         <!--slick.min.js-->
-        <script src="ass/assets/js/slick.min.js"></script>
+        <!-- <script src="ass/assets/js/slick.min.js"></script> -->
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script> -->
 		     
         <!--Custom JS-->
-        <script src="ass/assets/js/custom.js"></script>
+        <!-- <script src="ass/assets/js/custom.js"></script> -->
 
-	<?php include '../../onlineproject/loginheader.php'?>
-	<?php include '../../onlineproject/footer.php'?>
+	<?php include 'down.php'?>
+
 
   </body>
   
