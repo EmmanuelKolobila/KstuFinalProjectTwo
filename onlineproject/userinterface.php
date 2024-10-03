@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
   <link rel="stylesheet" type="text/css" href="css/header2.css">
+  <link href="assets/img/logo.png" rel="icon">
   <!-- java -->
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script> -->
   <!-- <link rel="stylesheet" type="text/css" href="css/style1.css"> -->

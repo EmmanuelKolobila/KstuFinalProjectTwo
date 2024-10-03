@@ -42,21 +42,20 @@ $err="<font color='red'>Invalid login details</font>";
 
 
 	<div class="row">
-		<div class="col-sm-4">Email ID</div>
+		<div class="col-sm-4" style="font-size: 15px; font-weight: bold">Email ID</div>
 		<div class="col-sm-5">
 		<input type="email" name="e" class="form-control"/></div>
-	</div>
+	</div><br>
 
 	<div class="row">
-		<div class="col-sm-4">Password</div>
+		<div class="col-sm-4" style="font-size: 15px; font-weight: bold">Password</div>
 		<div class="col-sm-5">
 		<input type="password" name="p" class="form-control"/></div>
-	</div>
-	<div class="row" style="margin-top:10px">
-		<div class="col-sm-2"></div>
-		<div class="col-sm-8">
-		<input type="submit" value="Login" name="save" class="btn btn-success"/>
-
+	</div><br>
+	<div class="row">
+	<div class="col-sm-4" style="font-size: 15px; font-weight: bold"></div>
+		<div class="col-sm-5">
+			<input  type="submit" value="Login" name="save" class="form-control btn btn-success"/>
 		</div>
 	</div>
 </form>

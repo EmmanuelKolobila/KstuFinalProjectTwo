@@ -151,10 +151,17 @@ body{
 }
 
 
+@media(max-width: 925px){
+#make{
+  font-size: 30px!important;
+}
+#makee{
+  font-size: 20px;
+}
+}
 
 
-
-label {
+/* label {
   background-color: hsl(240deg, 20%, 50%);
   border-radius: 5px;
   color: #fff;
@@ -171,7 +178,7 @@ label {
 input{
   position: absolute;
   opacity: 0;
-}
+} */
 
 .text-effect-wrapper,
 .text{
@@ -257,15 +264,15 @@ body:has(#option-toggle:checked){
     }
   } 
 }
-h1{
+/* h1{
   --font-size: clamp(6.25rem, 3.25rem + 15vw, 13.75rem);
   font: 700 var(--font-size)/1 "Lato", sans-serif;
   text-transform: uppercase;
   text-align: center;
   margin: 0;
-}
-
+} */
+/* 
 #text{
   font-size: 150px;
-}
+} */
 

@@ -4,15 +4,19 @@ session_start();
  ?>
 <html>
 	<head>
-		<title>Online Notice Board</title>
+		<title>I.C.T Directorate Notice Board</title>
 		<link rel="stylesheet" href="css/bootstrap.css"/>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/all.css">
+		<link href="images/logo.png" rel="icon">
+		
 
 		<script src="js/jquery_library.js"></script>
 <script src="js/bootstrap.min.js"></script>
 	</head>
 	<body>
-			
+		<!-- background image start -->
+			<div id="backi_mage">
  
 <?php include 'indexNoticeHeader.php'?>
 
@@ -82,16 +86,16 @@ session_start();
 
 		<?php include '../partof/innercontent.php'?>
 
-
-
-<!-- footer-->
-
+		
+		<!-- bacground image end -->
+				</div>
+		<!-- footer-->
+		
+		
+		
+		
+	</div>
 	<?php include '../onlineproject/noticefooter.php'?>
-
-
-
-
-</div>
 </nav>
 <!-- footer-->
 <?php include '../onlineproject/script.php'?>

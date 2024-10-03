@@ -32,16 +32,17 @@
     <title>Admin !</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="../css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="../../partof/css/half-slider.css" rel="stylesheet"> -->
 
     <!-- MetisMenu CSS -->
-    <link href="../css/metisMenu.min.css" rel="stylesheet">
+    <!-- <link href="../css/metisMenu.min.css" rel="stylesheet"> -->
 
     <!-- Custom CSS -->
-    <link href="../css/sb-admin-2.css" rel="stylesheet">
+    <!-- <link href="../css/sb-admin-2.css" rel="stylesheet"> -->
 
     <!-- Custom Fonts -->
-    <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -49,20 +50,36 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 
 </head>
-
+<style>
+#allinput{
+    order: 1px solid red;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+#secondcon{
+    order: 1px solid gold;
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+</style>
 <body>
+<?php include 'top.php'?>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-md-offset-4">
-                <div class="login-panel panel panel-default">
+    <div class="container" id="allinput">
+        <div class="row" id="secondcon">
+            <!-- <div class="col-md-4 col-md-offset-4"> -->
+                <!-- <div class="login-panel panel panel-default" > -->
                     <div class="panel-heading">
-                        <h3 class="panel-title">Please Sign In</h3>
+                        <h3 class="panel-title">Please Sign In :: Admin Only</h3>
                     </div>
                     <div class="panel-body">
-                        <form method="post">
+                        <form method="post" >
                             <fieldset>
                                 <div class="form-group">
                                     <input class="form-control" name="email" type="email" autofocus required placeholder="E-mail">
@@ -91,17 +108,19 @@
         </div>
     </div>
 
+    <?php include 'down.php'?>
+
     <!-- jQuery -->
-    <script src="../css/css/jquery.min.js"></script>
+    <!-- <script src="../css/css/jquery.min.js"></script> -->
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../css/css/bootstrap.min.js"></script>
+    <!-- <script src="../css/css/bootstrap.min.js"></script> -->
 
     <!-- Metis Menu Plugin JavaScript -->
-    <script src="../css/css/metisMenu.min.js"></script>
+    <!-- <script src="../css/css/metisMenu.min.js"></script> -->
 
     <!-- Custom Theme JavaScript -->
-    <script src="../css/css/sb-admin-2.js"></script>
+    <!-- <script src="../css/css/sb-admin-2.js"></script> -->
 
 </body>
 

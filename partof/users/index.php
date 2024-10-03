@@ -120,7 +120,7 @@ return true;
 	  <!-- <div id="login-page"> -->
 	  	<!-- <div class="container"> -->
 	  	
-		      <form class="form-login" name="login" method="post" style="margin-top: px">
+		      <form class="form-login" name="login" method="post" style="margin-top: -1px">
 		        <h2 class="form-login-heading" id="loginheading">sign in now</h2>
 		        <p style="padding-left:4%; padding-top:2%;  color:red">
 		        	<?php if($errormsg){

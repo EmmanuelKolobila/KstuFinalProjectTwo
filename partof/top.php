@@ -50,7 +50,7 @@
     <header class="header_section" style="background-color: rgb(47, 72, 119);">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.php">
             <img src="images1/lg1.png" alt="" />
             <span>
               K<b style="font-size: small;">s</b>TU  I.C.T DIRECTORATE
@@ -59,19 +59,19 @@
           <div class="contact_nav" id="">
             <ul class="navbar-nav ">
               <li class="nav-item">
-                <a class="nav-link" href="service.html">
+                <a class="nav-link" href="index.php">
                 <img src="images1/location.png" alt="" />
                   <span>KsTU MP BLOCK</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="service.html">
+                <a class="nav-link" href="index.php">
                   <img src="images1/call.png" alt="" />
                   <span>Call : 000000000000</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="service.html">
+                <a class="nav-link" href="index.php">
                  <img src="images1/envelope.png" alt="" />
                   <span>info@kstu.edu.gh</span>
                 </a>
@@ -97,7 +97,10 @@
               <div class="d-flex  flex-column flex-lg-row align-items-center">
                 <ul class="navbar-nav  ">
                   <li class="nav-item active">
-                    <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../onlineproject/index.php">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../notice/index.php">Annoucement</a>
                   </li>
                   <!-- <li class="nav-item">
                     <a class="nav-link" href="about.html">About </a>

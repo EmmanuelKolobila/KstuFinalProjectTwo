@@ -8,6 +8,7 @@
   <title>ICT DIRECTORATE</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+  <link href="assets/imgages/logo.png" rel="icon">
 
   <!-- Favicons -->
   <link href="assets/img/logo.png" rel="icon">
@@ -53,7 +54,7 @@
             <ul>
               
               <li><a class="nav-link scrollto" href="userinterface.php">Student Assistance</a></li>
-              <li><a class="nav-link  " href="comment.php">Comment</a></li>
+              
              <li class="dropdown"><a href="#"><span>MENU</span> <i class="bi bi-chevron-down"></i></a> 
              <ul>
                   <!-- <li><a href="#">Drop Down 1</a></li> -->
@@ -66,6 +67,7 @@
                       <li><a href="#">Deep Drop Down 5</a></li>
                     </ul>
                   </li> -->
+                  <li><a class="nav-link  " href="comment.php">Comment</a></li>
                   <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
                   <li><a class="nav-link scrollto" href="about.php">About</a></li>
                   <li><a class="nav-link scrollto" href="service.php">Services</a></li>

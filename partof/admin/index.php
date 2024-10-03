@@ -45,7 +45,6 @@ exit();
 	<link href="../../onlineproject/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 	<!-- <link rel="stylesheet" href="myboot/dist/css/bootstrap-grid.min.css"> -->
 	<!-- <link rel="stylesheet" href="myboot/dist/js/bootstrap.min.js"> -->
-
 		<!-- hh -->
 		<link href="../../onlineproject/assets/css/style.css" rel="stylesheet">
     <link href="../../onlineproject/assets/css/style-responsive.css" rel="stylesheet">
@@ -59,7 +58,6 @@ exit();
 	} */
 </style>
 <body>
-
 	<?php include '../../onlineproject/partofadminheader.php'?>
 
 	<div class="wrapper" id="innercon">
@@ -67,6 +65,7 @@ exit();
 			<div class="row">
 				<div class="module module-login span4 offset4" id="innerform">
 					<form class="form-vertical" method="post" id="theform">
+						<div style="color: red; font-size: 20px">STUDENT PROBLEM LOGS ADMIN PAGE</div>
 						<div class="module-head"id="signin">
 							<h3 >Admin Sign In</h3>
 						</div>

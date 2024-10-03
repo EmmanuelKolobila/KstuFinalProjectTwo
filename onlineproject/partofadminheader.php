@@ -39,7 +39,9 @@
 
           <nav id="navbar" class="navbar">
             <ul>
-
+            <li>
+                    <a href="index.php">student problem logs admin page</a>
+                    </li>
                     <li>
                         <a href="index.php">Admin Page</a>
                     </li>

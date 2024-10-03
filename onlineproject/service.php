@@ -118,7 +118,7 @@
           <div class="col-lg-4 col-md-6 box"  data-aos-delay="300">
             <div class="icon"><i class="bi bi-bar-chart"></i></div>
             <h4 class="title"><a href="../onlineproject/vclass.php">password change(Vclass)</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <p class="description">Kindly follow the procedure to reset your Vclass passward</p>
           </div>
           <div class="col-lg-4 col-md-6 box"  data-aos-delay="200">
             <div class="icon"><i class="bi bi-wifi"></i></div>
@@ -130,11 +130,11 @@
             <h4 class="title"><a href="https://archive.kstu.edu.gh/kstu-virtual-classroom">Vclass Link</a></h4>
             <p class="description">Kindly follow this link to the Vclass page</p>
           </div>
-          <!-- <div class="col-lg-4 col-md-6 box"  data-aos-delay="400">
+          <div class="col-lg-4 col-md-6 box"  data-aos-delay="400">
             <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-          </div> -->
+            <h4 class="title"><a href="portal.php">Change Portal Password</a></h4>
+            <p class="description">Kindly follow the procedure to reset your Portal passward</p>
+          </div> 
 
         </div>
 
