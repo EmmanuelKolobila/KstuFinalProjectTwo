@@ -137,7 +137,7 @@
             <div class="container" style="align-items: center">
               <div class="com" style="color: black; text-align: center; margin-top: 4%"><h1 style="color: black" id="make"><b>WELCOME TO KsTU I.C.T DIRECTORATE STUDENT HELP DESK</b></h1>
                 <div class="com" ><h1id="make"></b></h1>
-                <p ><h2 style="color: #ffff" id="makee">Vclass </h2><br> <b><i>please try to contact us anytime you have i.c.t problem</b> </i></p></div>
+                <p ><h2 style="color: #ffff" id="makee">Solution To Student Vclass Queries</h2><br> <b><i>please try to contact us anytime you have i.c.t problem</b> </i></p></div>
 
             </div>
         </div>

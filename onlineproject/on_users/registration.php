@@ -55,7 +55,7 @@ error:function (){}
 	 
   <?php include 'top.php'?>
 	  <!-- <div id="login-page" > -->
-	  	<div class="" style="order: 1px solid red; eight: 500px; margin-top: 15px">
+	  	<div class="" style="order: 1px solid red; eight: 500px">
 	  	
 		      <form class="form-login" method="post" style="margin-top: -1px; height: 500px">
 		        <h2 class="form-login-heading" id="loginheading">User Registration</h2>

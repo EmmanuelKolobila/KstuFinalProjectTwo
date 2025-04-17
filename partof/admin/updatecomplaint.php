@@ -60,7 +60,7 @@ window.print();
       </select></td>
     </tr>
 
-
+    
       <tr height="50">
       <td><b>Remark</b></td>
       <td><textarea name="remark" cols="50" rows="10" required="required"></textarea></td>

@@ -56,26 +56,27 @@
               <li><a class="nav-link scrollto" href="userinterface.php">Student Assistance</a></li>
               
              <li class="dropdown"><a href="#"><span>MENU</span> <i class="bi bi-chevron-down"></i></a> 
-             <ul>
-                  <!-- <li><a href="#">Drop Down 1</a></li> -->
-              <!--     <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                    <ul>
-                      <li><a href="#">Deep Drop Down 1</a></li>
-                      <li><a href="#">Deep Drop Down 2</a></li>
-                      <li><a href="#">Deep Drop Down 3</a></li>
-                      <li><a href="#">Deep Drop Down 4</a></li>
-                      <li><a href="#">Deep Drop Down 5</a></li>
-                    </ul>
-                  </li> -->
+               <ul>
                   <li><a class="nav-link  " href="comment.php">Comment</a></li>
                   <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
                   <li><a class="nav-link scrollto" href="about.php">About</a></li>
                   <li><a class="nav-link scrollto" href="service.php">Services</a></li>
                   <li><a class="nav-link scrollto " href="Workers.php">Workers</a></li>
+                  <li><a class="nav-link scrollto " href="howToLogIntoVclass.php">WifiVedio</a></li>
                 </ul> 
               </li> 
               <li><a class="nav-link scrollto" href="contact.php">Contact</a></li>
-              <li><a class="nav-link scrollto" href="../notice/index.php">Announcement</a></li>
+              <!-- <li><a class="nav-link scrollto" href="http://localhost:1800/wifiConnection">Student ChatBox</a></li> -->
+              <li class="dropdown"><a href="#"><span>Sdt ChatBox Assistance</span> <i class="bi bi-chevron-down"></i></a> 
+               <ul>
+                  <li><a class="nav-link  " href="http://localhost:1800/portalConnection">Portal Assistance</a></li>
+                  <li><a class="nav-link scrollto active" href="http://localhost:1800/wifiConnection">Wifi Assistance</a></li>
+                  <li><a class="nav-link scrollto" href="http://localhost:1800/index.html">General Assistance</a></li>
+                  <li><a class="nav-link scrollto" href="#">Services</a></li>
+                  <li><a class="nav-link scrollto " href="#">Workers</a></li>
+                  <li><a class="nav-link scrollto " href="#">WifiVedio</a></li>
+                </ul> 
+              </li> 
               <li><a class="nav-link scrollto" href="../partof/index.php">Student problem logs</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle" id="mobile">
@@ -327,9 +328,9 @@ staying agile to drive digital innovations and Cyber Security.
       </div>
     </section><!-- End Call To Action Section -->
 
+    <!-- workers or staff -->
     
-    
-    <section id="portfolio" class="section-bg">
+    <!-- <section id="portfolio" class="section-bg">
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
@@ -487,12 +488,12 @@ staying agile to drive digital innovations and Cyber Security.
       </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
+    </section> -->
 
    
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="section-bg">
+    <!-- <section id="testimonials" class="section-bg">
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
@@ -513,9 +514,9 @@ staying agile to drive digital innovations and Cyber Security.
                   <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div>  -->
 
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonial-2.jpg" class="testimonial-img" alt="">
                 <h3>Sara Wilsson</h3>
@@ -526,9 +527,9 @@ staying agile to drive digital innovations and Cyber Security.
                   <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div> -->
 
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonial-3.jpg" class="testimonial-img" alt="">
                 <h3>Jena Karlis</h3>
@@ -539,9 +540,9 @@ staying agile to drive digital innovations and Cyber Security.
                   <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div> -->
 
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonial-4.jpg" class="testimonial-img" alt="">
                 <h3>Matt Brandon</h3>
@@ -552,9 +553,9 @@ staying agile to drive digital innovations and Cyber Security.
                   <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div> -->
 
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonial-5.jpg" class="testimonial-img" alt="">
                 <h3>John Larson</h3>
@@ -565,14 +566,14 @@ staying agile to drive digital innovations and Cyber Security.
                   <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
                 </p>
               </div>
-            </div><!-- End testimonial item -->
-
+            </div> -->
+<!-- 
           </div>
           <div class="swiper-pagination"></div>
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section>  -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="section-bg">

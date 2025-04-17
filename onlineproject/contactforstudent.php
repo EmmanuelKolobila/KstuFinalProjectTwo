@@ -48,7 +48,7 @@
               <li><a class="nav-link scrollto" href="about.php">About</a></li>
               <li><a class="nav-link scrollto" href="service.php">Services</a></li>
               <li><a class="nav-link scrollto " href="Workers.php">Workers</a></li>
-              <li><a class="nav-link scrollto" href="#team">Team</a></li>
+              <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
               <li><a class="nav-link  " href="comment.php">Comment</a></li>
               <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a> -->
                <!--  <ul>
@@ -105,7 +105,7 @@
 
         <div class="section-header">
           <h3>Contact Us</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p>KsTU I.C.T Directorate Is There For You</p>
         </div>
 
         <div class="row contact-info">

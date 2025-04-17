@@ -13,11 +13,11 @@
 
   <!-- info section -->
 
-  <section class="info_section layout_padding2-top" style="margin-top:px;">
-    <div class="container" style="">
-      <div class="info_form">
+  <section class="info_section layout_padding2-top">
+    <div class="container" >
+      <div class="info_form" >
         <h4>
-          Email I.C.T Directorate
+          Our Newsletter
         </h4>
         <form action="https://api.web3forms.com/submit" method="POST" >
         <input type="hidden" name="access_key" value="f4e0391a-4265-4268-bb97-2954a42b0166" />
