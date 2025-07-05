@@ -1,3 +1,40 @@
+<?php 
+$mysql_hostname = "localhost";
+$mysql_user = "root";
+$mysql_password = "";
+$mysql_database = "finalproject";
+$db = mysqli_connect($mysql_hostname, $mysql_user, $mysql_password, $mysql_database) or die("Could not connect database");
+
+
+if(!$db)
+{
+	die("connection Faild:" . mysqli_connect_error());
+}
+
+if(isset($_POST['save']))
+{
+	$name = $_POST['name'];
+	$department = $_POST['department'];
+	$phone = $_POST['phone'];
+	$message = $_POST['message'];
+
+	$sql_query = "INSERT INTO singlecontact(name,department,phone,message)
+	VALUES ('$name','$department','$phone','$message')";
+
+	if(mysqli_query($db,$sql_query))
+	{
+		  echo "New details entered!!!!";
+	}
+	else 
+	{
+		echo "Error: " . $sql . "". mysqli_error($db);
+	}
+	mysqli_close($db);
+ }
+
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -137,25 +174,29 @@
               PLEASE KINDLY FILL THIS FORM, IT HELPS US TO UPGRATE OUR SYSTEM
             </div>
             <div id="put" class="text-center  pb-4 fs-5">
-              <b class="" style="color: #ca5757;">NOTE:</b> THIS FORM IS <b class="" style="color: #ca5757;">NOT</b> FOR EVERYONE
+              <b class="" style="color: #ca5757;">NOTE:</b> THIS FORM IS FOR EVERYONE
             </div>
 
             <div class="row">
-              <div class="form-group col-md-6">
+              <!-- <div class="form-group col-md-6">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Full Name" required>
-              </div>
-              <div class="form-group col-md-6">
+              </div> -->
+               <!-- <div class="form-group col-md-6">
                 <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-              </div>
+              </div>  -->
             </div>
 
             <div class="row">
+             
+              
               <div class="form-group col-md-6">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Department Name Optional" required>
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Full Name" required>
+
+              <input type="text" class="form-control" name="department" id="subject" placeholder="Department Name Optional" required>
               <input type="text" class="form-control mt-3" name="phone" id="subject" placeholder="Phone Number" required>
               </div>
               <div class="form-group col-md-6">
-              <textarea class="form-control" name="message" rows="4" placeholder="What improvement do you want us to add to the system" required></textarea>
+              <textarea class="form-control" name="message" rows="6" placeholder="What improvement do you want us to add to the system" required></textarea>
               </div>
             </div>
 
@@ -171,35 +212,14 @@
               <div class="error-message"></div>
               <div class="sent-message">Your message has been sent. Thank you!</div> -->
             </div>
-            <div onclick="window.alert('Form submitted')" class="text-center" id="sendcon"><button class="py-3 px-5" id="button" type="submit" name="save">Send Message</button></div>
+            <div  class="text-center" id="sendcon"><button class="py-3 px-5" id="button" type="submit" name="save">Send Message</button></div>
           </form>
+          <!-- onclick="window.alert('Form submitted')" -->
         </div>
 
       </div>
     </section><!-- End Contact Section -->
-  <!-- <div id="history">
-    <div id="writehis">
-      <div id="tophis">I.C.T DIRECTORATE HISTORY</div>
-      <div id="downhis"> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore etincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat dolore magna aliqu </div>
-    </div>
-    <div id="hislogo">
-      <div id="" style="text-align: center;"><img src="images/logo.png"></div>
-      <div id="hoho">KsTU</div>
-      <div id="hoho">I.C.T</div>
-      <div id="hoho">DIRECTORATE</div>
-    </div>
-    <div id="writehis">
-      <div id="tophis">I.C.T DIRECTORATE HISTORY</div>
-      <div id="downhis">ipsum dolor sit \amet, consequis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat dolore magna alictetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqu</div>
-    </div>
-  </div> -->
+  
   <?php include 'footer.php'?>
 
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>

@@ -65,7 +65,7 @@
                   <li><a class="nav-link scrollto " href="howToLogIntoVclass.php">WifiVedio</a></li>
                 </ul> 
               </li> 
-              <li><a class="nav-link scrollto" href="contact.php">Contact</a></li>
+              <li><a class="nav-link scrollto" href="../announce/announcements.php">Announcement</a></li>
               <!-- <li><a class="nav-link scrollto" href="http://localhost:1800/wifiConnection">Student ChatBox</a></li> -->
               <li class="dropdown"><a href="#"><span>Sdt ChatBox Assistance</span> <i class="bi bi-chevron-down"></i></a> 
                <ul>

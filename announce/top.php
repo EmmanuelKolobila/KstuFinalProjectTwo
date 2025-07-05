@@ -19,15 +19,17 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
 
   <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css1/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="../partof/css1/bootstrap.css" />
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Dosis:400,600,700|Poppins:400,600,700&display=swap"
     rel="stylesheet" />
   <!-- Custom styles for this template -->
-  <link href="css1/style.css" rel="stylesheet" />
+  <link href="../partof/css1/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../partof/css/style1.css" />
+   <link rel="stylesheet" href="css/style1.css" />
   <!-- responsive style -->
-  <link href="css1/responsive.css" rel="stylesheet" />
+  <link href="../partof/css1/responsive.css" rel="stylesheet" />
 </head>
 <style>
   #send{
@@ -84,7 +86,7 @@
     </header>
     <!-- end header section -->
     <!-- slider section -->
-    <section class=" slider_section position-relative">
+    <section id="stobon" class="position-relative">
       <div class="container">
         <div class="custom_nav2">
           <nav class="navbar navbar-expand-lg custom_nav-container ">
@@ -99,9 +101,9 @@
                   <li class="nav-item active">
                     <a class="nav-link" href="../onlineproject/index.php">Home <span class="sr-only">(current)</span></a>
                   </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../announce/announcements.php">Annoucement</a>
-                  </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="../notice/index.php">Annoucement</a>
+                  </li> -->
                   <!-- <li class="nav-item">
                     <a class="nav-link" href="about.html">About </a>
                   </li> -->
@@ -109,10 +111,10 @@
                     <a class="nav-link" href="service.html">Services </a>
                   </li> -->
                   <li class="nav-item">
-                    <a class="nav-link" href="users/registration.php">Register Here</a>
+                    <a class="nav-link" href="../partof/index.php">Student problem logs</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="users/index.php">Login</a>
+                    <a class="nav-link" href="http://localhost:1800/index.html">Sdt ChatBox Assistance</a>
                   </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
@@ -123,11 +125,15 @@
           </nav>
         </div>
       </div>
-      <div class="slider_container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner" id="comeup" >
+      <!-- <div id="slider_container12" class="slider_container">
+        <div id="carouselExampleIndicators" > 
+          <div class="carousel-inner" id="comeup" > 
             <div class="carousel-item active">
               <div class="container">
                 <div class="row" >
                   <div class="col-lg- col-md- offset-md- offset-md-">
-                    <!-- <div class="detail-box" style="border: 1px solid green;"></div> -->
+                    <div class="detail-box" style="border: 1px solid green;">  -->
+
+                    
+                  
+                     

@@ -146,9 +146,9 @@
               <div class="form-group col-md-6">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Full Name" required>
               </div>
-              <div class="form-group col-md-6">
+              <!-- <div class="form-group col-md-6">
                 <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-              </div>
+              </div> -->
             </div>
 
             <div class="row mb-3">
